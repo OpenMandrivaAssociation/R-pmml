@@ -11,10 +11,11 @@ URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
 BuildArch:        noarch
 Requires:         R-core
-Requires:         R-XML 
-Requires:         R-arules R-nnet R-rpart R-randomSurvivalForest R-randomForest R-kernlab 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-XML
-BuildRequires:    R-arules R-nnet R-rpart R-randomSurvivalForest R-randomForest R-kernlab 
+Requires:         R-XML R-arules R-nnet R-rpart R-randomSurvivalForest
+Requires:         R-randomForest R-kernlab
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-XML R-arules R-nnet R-rpart R-randomSurvivalForest
+BuildRequires:    R-randomForest R-kernlab
 
 %description
 The Predictive Modelling Markup Language (PMML) is a language for
