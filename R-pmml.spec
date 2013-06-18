@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.2.29
-Release:          1
+Release:          2
 Summary:          Generate PMML for various models
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
