@@ -2,13 +2,13 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
-Version:          1.2.29
-Release:          2
+Version:          1.3
+Release:          1
 Summary:          Generate PMML for various models
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/pmml_1.3.tar.gz
 BuildArch:        noarch
 Requires:         R-core
 Requires:         R-XML R-arules R-nnet R-rpart R-randomSurvivalForest
@@ -53,3 +53,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/Meta
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
+
